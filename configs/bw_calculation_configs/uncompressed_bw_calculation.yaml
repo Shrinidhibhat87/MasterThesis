@@ -1,0 +1,33 @@
+# Dataset settings
+dataset:
+  name: "CityScapes"
+  root: "/data/datasets/PytorchDatasets/CityScapes-pytorch"
+  full_train_path: "/data/datasets/PytorchDatasets/CityScapes-pytorch/leftImg8bit/train/"
+
+# Output settings
+output:
+  path: "/data/output/myworkspace/CityScapes/bw_calculation/"
+
+# Usecase-Patchify settings
+usecase_patchifier:
+  calculate_bw: false
+  patch_size: 256
+  imp_patch_quality: 30
+  other_patch_quality: 10
+
+# Usecase JPEG settings
+usecase_jpeg:
+  calculate_bw: false
+  jpeg_quality: 20
+
+# Uncompressed image settings
+uncompressed_image:
+  calculate_bw: true
+
+# LUT settings
+lut_path: "patches_lut_patch_lut/reduced_train_ds/actual_training_lb4_gb8_reduced_data_kp_0.7_30_.pkl"
+
+# Evaluation settings
+bpp: false
+msssim: false
+psnr: false
