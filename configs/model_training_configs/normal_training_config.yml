@@ -1,0 +1,36 @@
+training:
+  usecase_patchify_training: False
+  usescase_jpeg_training: False
+  num_epochs: 120
+  device: "cuda"
+
+dataset:
+  name: "CityScapes"
+  root: "/data/datasets/PytorchDatasets/CityScapes-pytorch"
+
+model_output:
+  output_path: "/data/output/myworkspace/CityScapes/default_mask2former_training_test/"
+
+create_lut:
+  get_score_create_lut: False
+  get_attention_map_for_unseen: False
+  seen_data_pkl_file_path: "patches_lut_patch_lut/reduced_train_ds/actual_training_lb4_gb8_reduced_data_kp_0.3_30_.pkl"
+  write_ds_LUT_to_disk: False
+  train_ds_reduction: 0.7
+
+usecase_patchify:
+  confidence_prob_threshold: 0.9
+  patch_keep_ratio: 0.1
+  local_attn_score_per_patch: False
+  patchsize: 256
+  visualize: false
+
+patchifier:
+  patch_size: 256
+  lut_path: "patches_lut_patch_lut/attn_lut_from_local_pretrained_model/from_local_pretrained_on_50data_lb1_local_keepindx_0.1_patchsize_256_.pkl"
+  imp_patches_compress_quality: 90
+  other_compress_quality: 80
+
+jpeg:
+  lut_path: "patches_lut_patch_lut/attn_lut_from_local_pretrained_model/from_local_pretrained_on_50data_lb1_local_keepindx_0.1_patchsize_256_.pkl"
+  compress_quality: 80
