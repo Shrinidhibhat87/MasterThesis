@@ -17,7 +17,7 @@ save bandwidth.
 
 Problem statement
 
-![Color Image](images/problem_definition_flowchart.jpg)
+(![problem_definition_flowchart](https://github.com/user-attachments/assets/d0a69765-4d84-458a-be80-637d54041170))
 
 
 ## How are we trying to solve the problem?
@@ -29,7 +29,8 @@ This way, we propose a differential encoding and decoding framework which assign
 
 Our Framework
 
-![Color Image](images/Our_framework_flowchart.jpg)
+![Our_framework_flowchart](https://github.com/user-attachments/assets/535cbf31-347d-4e36-871c-b03bac54d8f5)
+
 
 
 ## What are the results?
@@ -39,42 +40,46 @@ Although, not beating the traditional JPEG compression is all aspects, there are
 
 ### Creating the different model usecases
 
-![Color Image](images/create_model_usecase_20240730_141402.png)
+![create_model_usecase_20240730_141402](https://github.com/user-attachments/assets/a56b6161-cfb0-42c1-947f-ad6691023806)
 
 
 ### Usecase 70
 
-![Color Image](images/Usecase_70unseen_Patchify_pipeline_20240730_145522.png)
+![Usecase_70unseen_Patchify_pipeline_20240730_145522](https://github.com/user-attachments/assets/697d27f3-b28d-4a93-b4d9-b6d26976200f)
 
-![Color Image](images/Usecase_70unseen_Patchify_pipeline_disk_memusage_20240730_144305.png)
+![Usecase_70unseen_Patchify_pipeline_disk_memusage_20240730_144305](https://github.com/user-attachments/assets/a1fb77c3-cf59-4e4d-bbfe-f45fd30ef721)
 
 
 ### Usecase 50
 
-![Color Image](images/Usecase_50unseen_Patchify_pipeline_20240730_145522.png)
+![Usecase_50unseen_Patchify_pipeline_20240730_145522](https://github.com/user-attachments/assets/fa6e1261-f536-4607-ba8d-8d1b94d0649d)
 
-![Color Image](images/Usecase_50unseen_Patchify_pipeline_disk_memusage_20240730_144306.png)
+![Usecase_50unseen_Patchify_pipeline_disk_memusage_20240730_144306](https://github.com/user-attachments/assets/2f9f616d-2e84-4ab2-a9d9-a692d6105e42)
 
 
 ### Usecase 30
 
-![Color Image](images/Usecase_30unseen_Patchify_pipeline_20240730_145523.png)
+![Usecase_30unseen_Patchify_pipeline_20240730_145523](https://github.com/user-attachments/assets/53f5b45d-73d3-4398-93a9-288e4464eac9)
 
 
 ## Miscellaneous images
 
 ### Patched Image
-![Color Image](images/patched_results.png)
+
+![patched_results](https://github.com/user-attachments/assets/40f8de74-f03e-4552-929a-889e7868f383)
 
 
 ### Attention map visualization
-![Color Image](images/attn_weights_patched_results.png)
+
+![attn_weights_patched_results](https://github.com/user-attachments/assets/be647734-1ce0-4279-b86f-abbfc1e4ee55)
 
 
 ### Most important patches
-![Color Image](images/_kept_indices.png)
 
-![Color Image](images/kept_color_patches.png)
+![kept_color_patches](https://github.com/user-attachments/assets/549981e8-72f9-44a0-a2d8-bb266c41a5c5)
+
+![_kept_indices](https://github.com/user-attachments/assets/7479f07b-fdba-418e-9d9a-4f9c6a5fa491)
+
 
 
 ## Future TODO
